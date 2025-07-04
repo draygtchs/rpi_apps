@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GTCHS Bucket Fillers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+  	<h1>GTCHS Bucket Fillers</h1>
+	<a href='entry' type='button' class='button'>To Submit a Bucket Filler</a>  	
+  	  	
+    <ul>
+        {% for filler in fillers|reverse %}
+            <li>
+               <q> {{ filler[1] }} </q>
+               <!-- <a href="/delete/{{ filler[0] }}">Delete</a> -->
+            </li>
+        {% endfor %}
+    </ul>
+    
+  </body>
+</html>

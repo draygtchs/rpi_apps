@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GTCHS Bucket Fillers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+  	<h1>GTCHS Bucket Fillers</h1>
+  	<a href='/' type='button' class='button'>Back to Bucket Filler Page</a>
+  	<p>Add your bucket filler below</p>
+  	<form method="post" action="/add">
+         <input type="text" name="filler" placeholder="Add a filler" required>
+         <button type="submit" class='button'>Add</button>
+    </form>
+
+  </body>
+</html>

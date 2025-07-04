@@ -1,0 +1,53 @@
+body {
+  background-color: midnightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p, input {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+input[type=text]{
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: darkgray;
+  border: none;
+  /*color: gray;*/
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    color: white;
+    font-family: cursive;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+}
+
+q {
+	quotes: auto;
+}
